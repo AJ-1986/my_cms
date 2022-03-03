@@ -20,3 +20,7 @@ body {
     font-family: CabinCondensed-Regular, sans-serif;
     font-size: 12px;
 }
+div.rdzen {
+    margin: 0 auto;
+    width: 80%;
+}
