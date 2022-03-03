@@ -4,6 +4,9 @@
         <meta name="autor" content="Adam Jurewicz">
         <title>Panel administracyjny Proxweb CMS - logowanie</title>
         <link rel="stylesheet" href="styl_zaloguj.css">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
     </head>
     <body>
         <div class="rdzen">
