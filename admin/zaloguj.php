@@ -39,6 +39,10 @@
             </div>
             <div class="stopka">
                 <div class="stopka_rdzen">
+                    <?php
+                    $data_stopka = gmdate('Y');
+                    echo '&copy proxweb.com.pl '.$data_stopka;
+                    ?>
                 </div>
             </div>
         </div>
