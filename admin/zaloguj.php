@@ -17,7 +17,7 @@
                 <div class="form_rdzen">
                     <div class="form_log">
                         <p class="form_log_instrukcja">
-                            Aby się zalogować wypełnił prawidłowo poniższe pola formularza.
+                            Aby się zalogować wypełnił prawidłowo<br>poniższe pola formularza.
                         </p>
                         <form method="post" action="log_funkcja.php">
                             <table>

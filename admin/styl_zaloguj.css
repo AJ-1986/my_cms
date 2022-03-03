@@ -55,8 +55,14 @@ div.form_rdzen {
 }
 div.form_log {    
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 25px;
     width: 80%;        
+}
+p.form_log_instrukcja {
+    font-family: CabinCondensed-SemiBold, sans-serif;
+    font-size: 16px;
+    color: gold;
+    text-align: center;
 }
 td.login {
     font-family: CabinCondensed-SemiBold, sans-serif;
