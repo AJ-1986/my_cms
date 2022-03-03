@@ -33,5 +33,6 @@ div.naglowek {
 h1.tytul {
     font-family: CabinCondensed-Bold, sans-serif;
     font-size: 38px;
+    text-align: center;
     color: goldenrod;
     }
