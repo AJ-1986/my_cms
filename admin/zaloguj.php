@@ -6,6 +6,6 @@
         <link rel="stylesheet" href="styl_zaloguj.css">
     </head>
     <body>
-
+        <p>To jest test</p>
     </body>
 </html>
