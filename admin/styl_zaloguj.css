@@ -87,3 +87,13 @@ td.nawigacja {
     font-size: 12px;
     color: black;
 }
+input[type=reset].wyczysc {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 20px;
+    padding: 10px 24px;
+    color: white;    
+    background-color: goldenrod;
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+}
