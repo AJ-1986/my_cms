@@ -63,3 +63,15 @@ td.login {
     color: white;
     font-size: 20px;
 }
+td.haslo {
+    font-family: CabinCondensed-SemiBold, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+input[type=text].login_uz {
+    font-family: CabinCondensed-Medium, sans-serif;
+    color: steelblue;
+    font-size: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
