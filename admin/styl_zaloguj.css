@@ -1,0 +1,22 @@
+@font-face {
+    font-family: CabinCondensed-Bold;
+    src: url(../czcionki/CabinCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: CabinCondensed-Medium;
+    src: url(../czcionki/CabinCondensed-Medium.ttf);
+}
+@font-face {
+    font-family: CabinCondensed-Regular;
+    src: url(../czcionki/CabinCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: CabinCondensed-SemiBold;
+    src: url(../czcionki/CabinCondensed-SemiBold.ttf);
+}
+body {
+    background-color: white;
+    color: black;
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 12px;
+}
