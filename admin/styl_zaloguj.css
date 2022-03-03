@@ -41,3 +41,15 @@ div.strona_rdzen {
     background-color: white;
     width: 100%;
 }
+div.form_rdzen {
+    margin: 0 auto;
+    background-color: steelblue;
+    border-radius: 25px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: black;
+    width: 450px;
+    height: 200px;    
+}
