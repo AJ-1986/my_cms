@@ -30,3 +30,8 @@ div.naglowek {
     font-size: 12px;
     color: black;
 }
+h1.tytul {
+    font-family: CabinCondensed-Bold, sans-serif;
+    font-size: 38px;
+    color: goldenrod;
+    }
