@@ -58,3 +58,8 @@ div.form_log {
     margin-top: 50px;
     width: 80%;        
 }
+td.login {
+    font-family: CabinCondensed-SemiBold, sans-serif;
+    color: white;
+    font-size: 20px;
+}
