@@ -53,3 +53,8 @@ div.form_rdzen {
     width: 450px;
     height: 200px;    
 }
+div.form_log {    
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;        
+}
