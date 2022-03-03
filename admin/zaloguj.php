@@ -17,7 +17,7 @@
                 <div class="form_rdzen">
                     <div class="form_log">
                         <p class="form_log_instrukcja">
-                            Aby się zalogować wypełnił prawidłowo poniższe pola formularza.
+                            Aby się zalogować wypełnił prawidłowo<br>poniższe pola formularza.
                         </p>
                         <form method="post" action="log_funkcja.php">
                             <table>
@@ -30,6 +30,9 @@
                                     <td><input class="haslo_uz" type="password" name="haslo_uz"></td>
                                 </tr>
                                 <tr>
+                                    <td colspan="2"><hr></td>
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="nawigacja">
                                         <input class="wyczysc" type="reset" value="Wyczyść">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                                         <input class="zaloguj" type="submit" value="Zaloguj">
@@ -40,13 +43,11 @@
                     </div>
                 </div>
             </div>
-            <div class="stopka">
-                <div class="stopka_rdzen">
+            <div class="stopka">                
                     <?php
                     $data_stopka = gmdate('Y');
-                    echo '&copy proxweb.com.pl '.$data_stopka;
-                    ?>
-                </div>
+                    echo '<p class="stopka"><br>&copy proxweb.com.pl '.$data_stopka.'</p>';
+                    ?>                
             </div>
         </div>
     </body>
