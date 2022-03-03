@@ -37,3 +37,7 @@ h1.tytul {
     text-align: center;
     color: goldenrod;
     }
+div.strona_rdzen {
+    background-color: white;
+    width: 100%;
+}
