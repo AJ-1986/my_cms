@@ -43,13 +43,11 @@
                     </div>
                 </div>
             </div>
-            <div class="stopka">
-                <div class="stopka_rdzen">
+            <div class="stopka">                
                     <?php
                     $data_stopka = gmdate('Y');
-                    echo '&copy proxweb.com.pl '.$data_stopka;
-                    ?>
-                </div>
+                    echo '<p class="stopka"><br>&copy proxweb.com.pl '.$data_stopka.'</p>';
+                    ?>                
             </div>
         </div>
     </body>

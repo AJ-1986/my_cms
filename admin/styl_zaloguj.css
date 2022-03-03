@@ -124,15 +124,14 @@ input[type=submit].zaloguj {
 input[type=submit].zaloguj:hover {   
     background-color: rgb(85, 245, 37);    
 }
-div.stopka {
+div.stopka {           
     width: 100%;
     height: 60px;
     background-color: steelblue;
 }
-div.stopka_rdzen {
-    margin: 0 auto;
-    margin-top: 25px;
+p.stopka {
+    margin-left: 25px;           
     font-family: CabinCondensed-Medium, sans-serif;
-    color: white;
-    width: 80%;
+    font-size: 18px;
+    color: white;    
 }
