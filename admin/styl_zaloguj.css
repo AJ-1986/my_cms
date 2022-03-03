@@ -97,3 +97,13 @@ input[type=reset].wyczysc {
     border-radius: 5px;
     cursor: pointer;
 }
+input[type=submit].zaloguj {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 20px;
+    padding: 10px 24px;
+    color: white;    
+    background-color: rgb(74, 209, 32);
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+}
