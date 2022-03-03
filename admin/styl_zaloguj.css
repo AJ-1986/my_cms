@@ -24,3 +24,9 @@ div.rdzen {
     margin: 0 auto;
     width: 80%;
 }
+div.naglowek {
+    background-color: white;
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 12px;
+    color: black;
+}
