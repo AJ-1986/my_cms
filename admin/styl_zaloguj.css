@@ -20,3 +20,102 @@ body {
     font-family: CabinCondensed-Regular, sans-serif;
     font-size: 12px;
 }
+div.rdzen {
+    margin: 0 auto;
+    width: 80%;
+}
+div.naglowek {
+    background-color: white;
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 12px;
+    color: black;
+    width: 100%;
+}
+h1.tytul {
+    font-family: CabinCondensed-Bold, sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: goldenrod;
+    }
+div.strona_rdzen {
+    background-color: white;
+    width: 100%;
+}
+div.form_rdzen {
+    margin: 0 auto;
+    background-color: steelblue;
+    border-radius: 25px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: black;
+    width: 450px;
+    height: 200px;    
+}
+div.form_log {    
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;        
+}
+td.login {
+    font-family: CabinCondensed-SemiBold, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+td.haslo {
+    font-family: CabinCondensed-SemiBold, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+input[type=text].login_uz {
+    font-family: CabinCondensed-Medium, sans-serif;
+    color: steelblue;
+    font-size: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+input[type=password].haslo_uz {
+    font-family: CabinCondensed-Medium, sans-serif;
+    color: steelblue;
+    font-size: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+td.nawigacja {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+input[type=reset].wyczysc {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 20px;
+    padding: 10px 24px;
+    color: white;    
+    background-color: goldenrod;
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit].zaloguj {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 20px;
+    padding: 10px 24px;
+    color: white;    
+    background-color: rgb(74, 209, 32);
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div.stopka {
+    width: 100%;
+    height: 60px;
+    background-color: steelblue;
+}
+div.stopka_rdzen {
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: CabinCondensed-Medium, sans-serif;
+    color: white;
+    width: 80%;
+}
