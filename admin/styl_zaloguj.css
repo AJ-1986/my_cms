@@ -51,7 +51,7 @@ div.form_rdzen {
     border-right: 1px solid;
     border-color: black;
     width: 450px;
-    height: 200px;    
+    height: 245px;    
 }
 div.form_log {    
     margin: 0 auto;
@@ -84,10 +84,12 @@ input[type=password].haslo_uz {
 }
 td.nawigacja {
     font-family: CabinCondensed-Regular, sans-serif;
-    font-size: 12px;
+    font-size: 28px;
     color: black;
+    text-align: center;
 }
 input[type=reset].wyczysc {
+    transition-duration: 0.4s;
     font-family: CabinCondensed-Regular, sans-serif;
     font-size: 20px;
     padding: 10px 24px;
@@ -97,7 +99,11 @@ input[type=reset].wyczysc {
     border-radius: 5px;
     cursor: pointer;
 }
+input[type=reset].wyczysc:hover {    
+    background-color: rgb(252, 197, 58);    
+}
 input[type=submit].zaloguj {
+    transition-duration: 0.4s;
     font-family: CabinCondensed-Regular, sans-serif;
     font-size: 20px;
     padding: 10px 24px;
@@ -106,6 +112,9 @@ input[type=submit].zaloguj {
     border: 1px solid navy;
     border-radius: 5px;
     cursor: pointer;
+}
+input[type=submit].zaloguj:hover {   
+    background-color: rgb(85, 245, 37);    
 }
 div.stopka {
     width: 100%;

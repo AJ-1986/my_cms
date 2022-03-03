@@ -30,6 +30,9 @@
                                     <td><input class="haslo_uz" type="password" name="haslo_uz"></td>
                                 </tr>
                                 <tr>
+                                    <td colspan="2"><hr></td>
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="nawigacja">
                                         <input class="wyczysc" type="reset" value="Wyczyść">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
                                         <input class="zaloguj" type="submit" value="Zaloguj">
