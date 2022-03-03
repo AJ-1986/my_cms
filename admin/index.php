@@ -1,6 +1,6 @@
 <?php
 session_start();
-if ($_SESSION['autoryzacja_id'] == $_SESSION['klucz_id'])
+if ($_SESSION['autoryzacja_id'] == $_SESSION['klucz_id'] AND $_SESSION['klucz_id'] != '')
     {
 ?>
 <!DOCTYPE html>
@@ -9,9 +9,10 @@ if ($_SESSION['autoryzacja_id'] == $_SESSION['klucz_id'])
         <meta charset="UTF-8">
         <meta name="autor" content="Adam Jurewicz">
         <title>Panel administracyjny Proxweb CMS</title>
+        <link rel="stylesheet" href="styl_zaloguj.css">
     </head>
     <body>
-
+        <p>Zostałeś pomyślnie zalogowany</p>
     </body>
 </html>
 <?php
