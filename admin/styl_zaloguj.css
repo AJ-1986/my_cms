@@ -136,13 +136,12 @@ input[type=submit].zaloguj:hover {
     background-color: rgb(85, 245, 37);    
 }
 div.stopka {           
-    width: 100%;
-    height: 70px;
-    background-color: steelblue;
+    width: 100%;    
+    background-color: rgb(255, 255, 255);
 }
-p.stopka {
-    margin-left: 25px;           
+p.stopka {              
     font-family: CabinCondensed-Medium, sans-serif;
     font-size: 18px;
-    color: white;    
+    color: rgb(0, 0, 0);
+    text-align: center;    
 }

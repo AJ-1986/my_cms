@@ -51,7 +51,7 @@
             <div class="stopka">                
                     <?php
                     $data_stopka = gmdate('Y');
-                    echo '<p class="stopka"><br>&copy proxweb.com.pl '.$data_stopka.'</p>';
+                    echo '<p class="stopka">&copy proxweb.com.pl '.$data_stopka.'</p>';
                     ?>                
             </div>
         </div>
