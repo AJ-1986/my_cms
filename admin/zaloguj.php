@@ -23,7 +23,7 @@
                             <table class="tbl_form">
                                 <tr>
                                     <td class="login">Nazwa użytkownika:</td>
-                                    <td><input class="login_uz" type="text" name="login"></td>
+                                    <td><input class="login_uz" type="text" name="login_uz"></td>
                                 </tr>
                                 <tr>
                                     <td class="haslo">Hasło użytkownika:</td>
