@@ -14,6 +14,11 @@
                 <h1 class="tytul">Logowanie do systemu ProxWebCMS</h1>
             </div>
             <div class="strona_rdzen">
+                <?php
+                if($_GET['blad'] == '1') {
+                echo '<p class="log_blad">Nieprawidłowa nazwa użytkownika lub hasło</p>';
+                }
+                ?>
                 <div class="form_rdzen">
                     <div class="form_log">
                         <p class="form_log_instrukcja">
@@ -23,7 +28,7 @@
                             <table class="tbl_form">
                                 <tr>
                                     <td class="login">Nazwa użytkownika:</td>
-                                    <td><input class="login_uz" type="text" name="login"></td>
+                                    <td><input class="login_uz" type="text" name="login_uz"></td>
                                 </tr>
                                 <tr>
                                     <td class="haslo">Hasło użytkownika:</td>
@@ -46,7 +51,7 @@
             <div class="stopka">                
                     <?php
                     $data_stopka = gmdate('Y');
-                    echo '<p class="stopka"><br>&copy proxweb.com.pl '.$data_stopka.'</p>';
+                    echo '<p class="stopka">&copy proxweb.com.pl '.$data_stopka.'</p>';
                     ?>                
             </div>
         </div>

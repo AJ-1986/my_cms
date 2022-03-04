@@ -1,6 +1,6 @@
 <?php
 session_start();
-if ($_SESSION['autoryzacja_id'] == $_SESSION['klucz_id'] AND $_SESSION['klucz_id'] != '')
+if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
     {
 ?>
 <!DOCTYPE html>
@@ -13,13 +13,13 @@ if ($_SESSION['autoryzacja_id'] == $_SESSION['klucz_id'] AND $_SESSION['klucz_id
     </head>
     <body>
         <p>Zostałeś pomyślnie zalogowany</p>
+        <a href="wyloguj.php">Wyloguj</a>        
     </body>
 </html>
 <?php
     }
     else
-    {
-        session_destroy();
+    {        
 ?>
 <!DOCTYPE html>
 <html lang="pl-PL">
