@@ -1,6 +1,6 @@
 <?php
 session_start();
-if ($_SESSION['autoryzacja_id'] == $_SESSION['klucz_id'] AND $_SESSION['klucz_id'] != '')
+if ($_SESSION['autoryzacja_id'] == $_SESSION['klucz_id'])
     {
 ?>
 <!DOCTYPE html>
