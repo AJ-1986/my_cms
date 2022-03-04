@@ -13,6 +13,7 @@ if ($_SESSION['autoryzacja_id'] == $_SESSION['klucz_id'])
     </head>
     <body>
         <p>Zostałeś pomyślnie zalogowany</p>
+        <a href="wyloguj.php">Wyloguj</a>
     </body>
 </html>
 <?php
