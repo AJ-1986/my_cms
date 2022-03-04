@@ -20,7 +20,7 @@
                             Aby się zalogować wypełnił prawidłowo<br>poniższe pola formularza.
                         </p>
                         <form method="post" action="log_funkcja.php">
-                            <table>
+                            <table class="tbl_form">
                                 <tr>
                                     <td class="login">Nazwa użytkownika:</td>
                                     <td><input class="login_uz" type="text" name="login"></td>
