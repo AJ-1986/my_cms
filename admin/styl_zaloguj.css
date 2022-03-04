@@ -41,6 +41,12 @@ div.strona_rdzen {
     background-color: white;
     width: 100%;
 }
+p.log_blad {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 16px;
+    color: red;
+    text-align: center;
+}
 div.form_rdzen {
     margin: 0 auto;
     background-color: steelblue;
