@@ -64,6 +64,9 @@ p.form_log_instrukcja {
     color: gold;
     text-align: center;
 }
+table.tbl_form {
+    width: 100%;
+}
 td.login {
     font-family: CabinCondensed-SemiBold, sans-serif;
     color: white;
@@ -77,6 +80,7 @@ td.haslo {
     text-align: right;
 }
 input[type=text].login_uz {
+    width: 180px;
     font-family: CabinCondensed-Medium, sans-serif;
     color: steelblue;
     font-size: 20px;
@@ -84,6 +88,7 @@ input[type=text].login_uz {
     border-radius: 5px;
 }
 input[type=password].haslo_uz {
+    width: 180px;
     font-family: CabinCondensed-Medium, sans-serif;
     color: steelblue;
     font-size: 20px;
@@ -126,7 +131,7 @@ input[type=submit].zaloguj:hover {
 }
 div.stopka {           
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: steelblue;
 }
 p.stopka {
