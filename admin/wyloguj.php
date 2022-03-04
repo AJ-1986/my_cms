@@ -1,17 +1,18 @@
 <?php
+session_start();
 session_destroy();
 ?>
 <!DOCTYPE html>
 <html lang="pl-PL">
     <head>
-        <script language="javascipt" type="text/javascript">
+        <script language="javascript" type="text/javascript">
             function przekieruj() {
-                document.location='zaloguj.php?wyloguj=1';
+                document.location='index.php';
             }
         </script>
     </head>
     <body>
-        <sctipt language="javascipt" type="text/javascipt">
+        <script language="javascript" type="text/javascript">
             przekieruj();
         </script>
     </body>

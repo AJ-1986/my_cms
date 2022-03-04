@@ -3,12 +3,15 @@ include 'log_konfiguracja.php';
 
 if($_POST['login_uz'] == $us_login AND $_POST['haslo_uz'] == $us_paswd)
 {
-    // session_start();
+    session_start();
+
+    $_SESSION['autoryzacja_id'] = '786tuyjfhgf67';
+    $_SESSION['klucz_id'] = '';
 
     // generuje klucz logowania
     $klucz_gen = rand(1, 99).rand(1, 99).rand(1, 99).rand(1, 99).rand(1, 99);
     $szyfr_gen = md5($klucz_gen);
-    $_SESSION['autoryzacja_id'] . $_SESSION['klucz_id'] = $szyfr_gen;
+    //$_SESSION['autoryzacja_id'] . $_SESSION['klucz_id'] = $szyfr_gen;
     // koniec
 ?>
 <!DOCTYPE html>
@@ -21,9 +24,14 @@ if($_POST['login_uz'] == $us_login AND $_POST['haslo_uz'] == $us_paswd)
         </script>
     </head>
     <body>
+        <?php
+        echo $_SESSION['autoryzacja_id'] . 'spacja' . $_SESSION['klucz_id'];
+        ?>
+        
         <script language="javascript" type="text/javascript">
             przekieruj();
         </script>
+        
     </body>
 </html>
 <?php
