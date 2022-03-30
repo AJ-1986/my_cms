@@ -12,12 +12,14 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
         <link rel="stylesheet" href="panel_admin.css">
     </head>
     <body>
-        <div class="lewy_panel">
-            <div class="logo">
-                
-            </div>
-            <div class="lewe_menu">
+        <div class="glowna">
+            <div class="lewy_panel">
+                <div class="logo">
+                    
+                </div>
+                <div class="lewe_menu">
 
+                </div>
             </div>
         </div>
         <p>Zostałeś pomyślnie zalogowany</p>
