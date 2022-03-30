@@ -15,8 +15,28 @@
     src: url(../czcionki/CabinCondensed-SemiBold.ttf);
 }
 body {
+    margin: 0;                
     background-color: white;
     color: black;
     font-family: CabinCondensed-Regular, sans-serif;
     font-size: 12px;
+}
+div.glowna {
+    margin: 0;           
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+div.lewy_panel {                  
+    width: 250px;
+    height: 100%;
+    background-color: steelblue;    
+}
+div.logo {
+    margin: 0 auto;    
+    width: 200px;    
+}
+div.lewe_menu {    
+    font-family: CabinCondensed-Regular, sans-serif;
+    color: white;
 }
