@@ -9,9 +9,19 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
         <meta charset="UTF-8">
         <meta name="autor" content="Adam Jurewicz">
         <title>Panel administracyjny Proxweb CMS</title>
-        <link rel="stylesheet" href="styl_zaloguj.css">
+        <link rel="stylesheet" href="panel_admin.css">
     </head>
     <body>
+        <div class="glowna">
+            <div class="lewy_panel">
+                <div class="logo">
+                    <img src="../images/proxweb_logo.png" alt="ProxWeb CMS Logo">
+                </div>
+                <div class="lewe_menu">
+
+                </div>
+            </div>
+        </div>
         <p>Zostałeś pomyślnie zalogowany</p>
         <a href="wyloguj.php">Wyloguj</a>        
     </body>
