@@ -12,6 +12,14 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
         <link rel="stylesheet" href="styl_zaloguj.css">
     </head>
     <body>
+        <div class="lewy_panel">
+            <div class="logo">
+                
+            </div>
+            <div class="lewe_menu">
+
+            </div>
+        </div>
         <p>Zostałeś pomyślnie zalogowany</p>
         <a href="wyloguj.php">Wyloguj</a>        
     </body>
