@@ -15,32 +15,28 @@
     src: url(../czcionki/CabinCondensed-SemiBold.ttf);
 }
 body {
-    margin: 0;
+    margin: 0;                
     background-color: white;
     color: black;
     font-family: CabinCondensed-Regular, sans-serif;
     font-size: 12px;
 }
 div.glowna {
-    float: left;
-    margin: 0px;
+    margin: 0;           
     width: 100%;
     background-color: white;
-}
-div.lewy_panel {
     float: left;
+}
+div.lewy_panel {                  
     width: 250px;
     height: 100%;
-    background-color: steelblue;
+    background-color: steelblue;    
 }
-div.logo {    
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 200px;
-    text-align: center;
+div.logo {
+    margin: 0 auto;    
+    width: 200px;    
 }
-div.lewe_menu {
-    margin: 0 auto;
+div.lewe_menu {    
     font-family: CabinCondensed-Regular, sans-serif;
     color: white;
 }
