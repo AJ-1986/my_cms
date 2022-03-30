@@ -9,7 +9,7 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
         <meta charset="UTF-8">
         <meta name="autor" content="Adam Jurewicz">
         <title>Panel administracyjny Proxweb CMS</title>
-        <link rel="stylesheet" href="styl_zaloguj.css">
+        <link rel="stylesheet" href="panel_admin.css">
     </head>
     <body>
         <div class="lewy_panel">
