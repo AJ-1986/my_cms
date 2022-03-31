@@ -33,7 +33,12 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
             <div class="centrum">
                 <div class="strona">
                     <p>Zostałeś pomyślnie zalogowany<br>
-                    <a href="wyloguj.php">Wyloguj</a></p> 
+                    <a href="wyloguj.php">Wyloguj</a></p>
+                    <?php
+                        if($_GET['moje_strony'] == '1') {
+                            include 'moje_strony.php';
+                        }
+                    ?> 
                 </div>
             </div>
             <div class="stopka">
