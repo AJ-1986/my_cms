@@ -20,7 +20,7 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
         <div class="glowna">
             <div class="naglowek">
                 <p class="naw_naglowek">Zostałeś pomyślnie zalogowany<br>
-                <a href="wyloguj.php">Wyloguj</a></p>
+                <a class="wyl_link" href="wyloguj.php">Wyloguj</a></p>
             </div>
             <div class="lewy_panel">
                 <div class="logo">

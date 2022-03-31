@@ -28,6 +28,12 @@ div.naglowek {
     background-color: steelblue;
     float: left;
 }
+p.naw_naglowek {
+    margin-right: 25px;
+    font-family: CabinCondensed-Regular, sans-serif;
+    color: white;
+    text-align: right;
+}
 div.glowna {
     margin: 0;           
     width: 100%;
