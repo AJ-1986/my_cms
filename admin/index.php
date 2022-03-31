@@ -10,6 +10,11 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
         <meta name="autor" content="Adam Jurewicz">
         <title>Panel administracyjny Proxweb CMS</title>
         <link rel="stylesheet" href="panel_admin.css">
+        <script language="javascript" type="text/javascript">
+            function otworz(id_modulu) {
+                document.location='index.php?', id_modulu, '=1';
+            }
+        </script>
     </head>
     <body>
         <div class="glowna">
@@ -19,6 +24,7 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
                 </div>
                 <div class="lewe_menu">
                     <h3>Menu:</h3>
+                    
                 </div>
             </div>
             <div class="centrum">
