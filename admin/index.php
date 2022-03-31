@@ -24,7 +24,9 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
                 </div>
                 <div class="lewe_menu">
                     <h3>Menu:</h3>
-                    
+                    <p class="nawigacja">
+                        
+                    </p>
                 </div>
             </div>
             <div class="centrum">
