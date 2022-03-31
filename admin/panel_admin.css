@@ -33,6 +33,11 @@ div.lewy_panel {
     background-color: steelblue; 
     float: left;   
 }
+h3.naglowek_menu {
+    font-family: CabinCondensed-Bold;
+    font-size: 24px;
+    color: white;    
+}
 div.logo {
     margin: 25px auto;    
     width: 200px;    
