@@ -24,19 +24,38 @@ body {
 div.glowna {
     margin: 0;           
     width: 100%;
-    background-color: white;
-    float: left;
+    height: 500px;
+    background-color: white;    
 }
 div.lewy_panel {                  
     width: 250px;
     height: 100%;
-    background-color: steelblue;    
+    background-color: steelblue; 
+    float: left;   
 }
 div.logo {
-    margin: 0 auto;    
+    margin: 25px auto;    
     width: 200px;    
 }
-div.lewe_menu {    
+div.lewe_menu {
+    margin: 25px auto;
+    width: 200px;    
     font-family: CabinCondensed-Regular, sans-serif;
     color: white;
+}
+div.centrum {
+    margin: 0;
+    width: 600px;
+    float: left;
+}
+div.strona {
+    margin: 25px auto;
+    width: 90%;
+}
+div.stopka {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: steelblue;
+    float: left;
 }
