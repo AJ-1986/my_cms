@@ -31,8 +31,17 @@ div.naglowek {
 p.naw_naglowek {
     margin-right: 25px;
     font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 12px;
     color: white;
-    text-align: right;
+    text-align: right;    
+}
+a.wyl_link {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 12px;
+    color: orange;
+}
+a.wyl_link:hover {
+    color: wheat;
 }
 div.glowna {
     margin: 0;           
