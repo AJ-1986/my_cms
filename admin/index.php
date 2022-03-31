@@ -18,6 +18,10 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
     </head>
     <body>
         <div class="glowna">
+            <div class="naglowek">
+                <p class="naw_naglowek">Zostałeś pomyślnie zalogowany<br>
+                <a href="wyloguj.php">Wyloguj</a></p>
+            </div>
             <div class="lewy_panel">
                 <div class="logo">
                     <img src="../images/proxweb_logo.png" alt="ProxWeb CMS Logo">
@@ -31,9 +35,7 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
                 </div>
             </div>
             <div class="centrum">
-                <div class="strona">
-                    <p>Zostałeś pomyślnie zalogowany<br>
-                    <a href="wyloguj.php">Wyloguj</a></p>
+                <div class="strona">                    
                     <?php
                         if($_GET['moje_strony'] == '1') {
                             include 'moje_strony.php';
