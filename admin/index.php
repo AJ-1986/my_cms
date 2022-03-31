@@ -26,6 +26,7 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
                     <h3>Menu:</h3>
                     <p class="nawigacja">
                         <button class="lewe_przyciski" onclick="otworz('moje_strony')">Moje strony</button>
+                        <button class="lewe_przyciski" onclick="otworz('kategorie')">Moje strony</button>
                     </p>
                 </div>
             </div>
