@@ -83,3 +83,8 @@ div.stopka {
     background-color: steelblue;
     float: left;
 }
+p.stopka {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 16px;
+    color: wheat;
+}
