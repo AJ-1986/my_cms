@@ -23,9 +23,9 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
                     <img src="../images/proxweb_logo.png" alt="ProxWeb CMS Logo">
                 </div>
                 <div class="lewe_menu">
-                    <h3>Menu:</h3>
+                    <h3 class="naglowek_menu">Menu:</h3>
                     <p class="nawigacja">
-                        <button class="lewe_przyciski" onclick="otworz('moje_strony')">Moje strony</button><br>
+                        <button class="lewe_przyciski" onclick="otworz('moje_strony')">Moje strony</button><br><br>
                         <button class="lewe_przyciski" onclick="otworz('kategorie')">Kategorie</button>
                     </p>
                 </div>
