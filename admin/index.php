@@ -18,7 +18,7 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
                     <img src="../images/proxweb_logo.png" alt="ProxWeb CMS Logo">
                 </div>
                 <div class="lewe_menu">
-
+                    <h3>Menu:</h3>
                 </div>
             </div>
             <div class="centrum">
