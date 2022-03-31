@@ -28,7 +28,7 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
                 </div>
             </div>
             <div class="stopka">
-                
+                <p class="stopka">&copy; ProxWeb CMS <?php echo gmdate('Y'); ?></p>
             </div>
         </div>               
     </body>
