@@ -12,7 +12,7 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
         <link rel="stylesheet" href="panel_admin.css">
         <script language="javascript" type="text/javascript">
             function otworz(id_modulu) {
-                document.location='index.php?', id_modulu, '=1';
+                document.location='index.php?'+id_modulu+'=1';
             }
         </script>
     </head>
