@@ -24,16 +24,16 @@ body {
 div.glowna {
     margin: 0;           
     width: 100%;
-    background-color: white;
-    float: left;
+    background-color: white;    
 }
 div.lewy_panel {                  
     width: 250px;
-    height: 100%;
-    background-color: steelblue;    
+    height: 500px;
+    background-color: steelblue; 
+    float: left;   
 }
 div.logo {
-    margin: 0 auto;    
+    margin: 25px auto;    
     width: 200px;    
 }
 div.lewe_menu {    
