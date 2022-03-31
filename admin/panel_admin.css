@@ -36,7 +36,26 @@ div.lewy_panel {
 h3.naglowek_menu {
     font-family: CabinCondensed-Bold;
     font-size: 24px;
-    color: white;    
+    color: white;        
+}
+p.nawigacja {
+    font-size: 10px;
+    text-align: center;
+}
+button.lewe_przyciski {
+    transition-duration: 0.4s;
+    width: 180px;
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    color: black;    
+    background-color: orange;
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.lewe_przyciski:hover {
+    background-color: wheat;
 }
 div.logo {
     margin: 25px auto;    
