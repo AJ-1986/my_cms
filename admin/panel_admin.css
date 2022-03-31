@@ -34,7 +34,7 @@ div.lewy_panel {
     float: left;   
 }
 h3.naglowek_menu {
-    font-family: CabinCondensed-Bold;
+    font-family: CabinCondensed-Bold, sans-serif;
     font-size: 24px;
     color: white;        
 }
