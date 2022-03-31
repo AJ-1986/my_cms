@@ -21,9 +21,16 @@ if ($_SESSION['autoryzacja_id'] == '786tuyjfhgf67')
 
                 </div>
             </div>
-        </div>
-        <p>Zostałeś pomyślnie zalogowany</p>
-        <a href="wyloguj.php">Wyloguj</a>        
+            <div class="centrum">
+                <div class="strona">
+                    <p>Zostałeś pomyślnie zalogowany<br>
+                    <a href="wyloguj.php">Wyloguj</a></p> 
+                </div>
+            </div>
+            <div class="stopka">
+                
+            </div>
+        </div>               
     </body>
 </html>
 <?php
