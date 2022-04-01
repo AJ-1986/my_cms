@@ -118,4 +118,10 @@ p.stopka {
 
 /* Arkusz styli dla modułu odpowiedzialnego za dodawanie stron */
 
+h1.tytul_gl {
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 32px;
+    color: goldenrod;
+}
+
 /* ############# koniec */
