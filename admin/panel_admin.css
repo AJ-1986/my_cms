@@ -1,3 +1,6 @@
+/*
+Główna część arkusza odpowiadająca za panel administracyjny
+*/
 @font-face {
     font-family: CabinCondensed-Bold;
     src: url(../czcionki/CabinCondensed-Bold.ttf);
@@ -111,3 +114,8 @@ p.stopka {
     color: wheat;
     text-align: center;
 }
+/* ############# koniec */
+
+/* Arkusz styli dla modułu odpowiedzialnego za dodawanie stron */
+
+/* ############# koniec */
