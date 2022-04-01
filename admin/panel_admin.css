@@ -123,5 +123,19 @@ h1.tytul_gl {
     font-size: 32px;
     color: goldenrod;
 }
+button.sr_przyciski {
+    transition-duration: 0.4s;    
+    font-family: CabinCondensed-Regular, sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: black;    
+    background-color: orange;
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.sr_przyciski:hover {
+    background-color: wheat;
+}
 
 /* ############# koniec */
