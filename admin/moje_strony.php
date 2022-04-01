@@ -1,5 +1,7 @@
 <?php
 if ($_GET['moje_strony'] == '1') {
-    echo 'test - ok';
+?>
+                    <h1 class="tytuł_gl">Moje strony</h1>                    
+<?php
 }
 ?>
