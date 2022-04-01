@@ -1,0 +1,10 @@
+Parametry bazy MySQL baza23193_20180318
+
+Dane podstawowe
+  Nazwa bazy: baza23193_20180318
+  Adres serwera (host): 23193.m.tld.pl
+  Nazwa użytkownika: admin23193_20180318
+  Hasło administratora: 5Kg23i%sbm
+  Nazwa użytkownika z ograniczonym dostępem: user23193_20180318
+  Hasło użytkownika: 1RjNv6%Wjq
+
